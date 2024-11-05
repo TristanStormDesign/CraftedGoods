@@ -1,0 +1,20 @@
+/* Footer Styling */
+.footer {
+    background-color: #1E939C; /* Teal background color */
+    color: #fff; /* White text color */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow on top */
+    z-index: 10;
+}
+
+.footer p {
+    margin: 0;
+    font-weight: 400;
+}

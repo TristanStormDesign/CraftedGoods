@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f9;
+}
+
+/* Wrapper for centering the form */
+.register-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding-top: 20px;
+}
+
+/* Message Styling */
+.message {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.message.success {
+    background-color: #e0f7e9;
+    color: #1E939C;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Registration Form Styling */
+.registration-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.registration-form h2 {
+    font-size: 28px;
+    color: #1E939C;
+    margin-bottom: 20px;
+}
+
+.registration-form label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1E939C;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+    background-color: #128080;
+}
+
+.registration-form p {
+    font-size: 14px;
+    color: #333;
+}
+
+.registration-form p a {
+    color: #1E939C;
+    text-decoration: underline;
+}
+
+.registration-form p a:hover {
+    color: #128080;
+}

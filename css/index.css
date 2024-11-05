@@ -1,0 +1,122 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Banner Section */
+.banner {
+    background: url('../images/header-image.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+/* Info Blocks Section */
+.info-blocks {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+
+.block {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* Section Titles */
+.popular-products h2,
+.popular-stores h2 {
+    font-size: 28px;
+    color: #1E939C;
+    text-align: center;
+    margin: 40px 0 20px;
+    font-weight: 600;
+}
+
+/* Horizontal Row Layout for Products and Stores */
+.products-row,
+.stores-row {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.product-card,
+.store-card {
+    width: 18%; /* 5 items in a row */
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.product-card:hover,
+.store-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.product-card img,
+.store-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-card h3,
+.store-card h3 {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.product-card p,
+.store-card p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* View Button Styling */
+.view-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #1E939C;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.view-button:hover {
+    background-color: #128080; /* Darker teal on hover */
+}

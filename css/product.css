@@ -1,0 +1,144 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Main Wrapper for Product Page */
+.product-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+    gap: 20px;
+    max-width: 1900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Left Block - Product Image */
+.product-image-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    max-width: 100%;
+    max-height: 450px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Middle Block - Product Info and Comment Form */
+.product-info {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-info h2 {
+    font-size: 28px;
+    color: #1E939C;
+    margin-bottom: 15px;
+}
+
+.product-info p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.add-to-cart-button {
+    padding: 12px 20px;
+    background-color: #1E939C;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.add-to-cart-button:hover {
+    background-color: #128080;
+}
+
+/* Comment Form Styling */
+.comment-form {
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.comment-form h3 {
+    font-size: 22px;
+    color: #1E939C;
+    margin-bottom: 15px;
+}
+
+.comment-form textarea, .comment-form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.submit-comment-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1E939C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-comment-button:hover {
+    background-color: #128080;
+}
+
+/* Right Block - Comments Section */
+.comments-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.comments-section h3 {
+    font-size: 22px;
+    color: #1E939C;
+    margin-bottom: 15px;
+}
+
+.comments-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comment {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment p {
+    margin: 5px 0;
+}
+
+.comment small {
+    color: #666;
+}

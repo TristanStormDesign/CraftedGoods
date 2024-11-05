@@ -1,0 +1,107 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Wrapper for the Edit Product Form */
+.dashboard-wrapper {
+    width: 90vw; /* 90% of the viewport width */
+    max-width: 1900px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Title Styling */
+.dashboard-wrapper h2 {
+    font-size: 28px;
+    color: #1E939C;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Edit Product Form */
+.edit-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-product form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Form Labels */
+.edit-product label {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Input Fields */
+.edit-product input[type="text"],
+.edit-product input[type="number"],
+.edit-product textarea,
+.edit-product input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Text Area */
+.edit-product textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Image Preview */
+.edit-product img {
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Update Button */
+.update-btn {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1E939C;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.update-btn:hover {
+    background-color: #128080;
+}
+
+/* Responsive Layout */
+@media (min-width: 1400px) {
+    .dashboard-wrapper {
+        padding: 40px;
+    }
+
+    .edit-product form {
+        max-width: 800px;
+    }
+}
